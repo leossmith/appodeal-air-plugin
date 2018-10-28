@@ -3,6 +3,10 @@
 [![](https://img.shields.io/badge/latest-android-green.svg)](https://s3-eu-west-1.amazonaws.com/appodeal-adobe-air/Appodeal-ANE-3.0.7-200418-android.zip)
 [![](https://img.shields.io/badge/latest-ios-grey.svg)](https://s3-eu-west-1.amazonaws.com/appodeal-adobe-air/Appodeal-ANE-3.0.7-200418-all.zip)
 
+## Notive
+
++ This is a work in progress to update to the latest Appodeal SDK. 
+
 ## How to Build
 
 ### Plugin Build Requirements:
@@ -275,6 +279,10 @@ userSettings.setGender(Gender.FEMALE);
 ```
 
 ## Changelog
+
+3.1.0 (29/10/2018)
+
++ Appodeal Android SDK Updated to 2.4.6 Beta
 
 3.0.7 (20/04/2018)
 
