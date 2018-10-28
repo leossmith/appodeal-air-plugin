@@ -1,9 +1,12 @@
 package com.appodeal.aneplugins.callbacks;
 
+
 import com.appodeal.ads.BannerCallbacks;
 import com.appodeal.aneplugins.AppodealContext;
 
 public class AppodealBannerListener implements BannerCallbacks {
+
+
 
     protected AppodealContext _ctx = null;
 
@@ -20,6 +23,9 @@ public class AppodealBannerListener implements BannerCallbacks {
     public void onBannerFailedToLoad() {
         _ctx.dispatchStatusEventAsync("BANNER_FAILED_TO_LOAD", "");
     }
+
+    @Override
+    public void onBannerExpired() { _ctx.dispatchStatusEventAsync("BANNER_EXPIRED", ""); }
 
     @Override
     public void onBannerLoaded(int height, boolean isPrecache) {

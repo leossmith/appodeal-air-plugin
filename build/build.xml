@@ -3,7 +3,7 @@
 
   <!-- Config -->
   <property name="tempbuild" value="../temp/ios/build"/>
-  <property name="air.sdk" value="/Users/nazar/Library/Android/flex"/>
+  <property name="air.sdk" value="E:/Development/flex-sdks/4161_30"/>
 
   <!-- All -->
   <target depends="clean,prepare,package,package_andr" description="Full build of extension" name="all" />
@@ -44,20 +44,7 @@
       </patternset>
     </unzip>
 
-    <!-- Copy to iOS -->
-    <copy overwrite="true" todir="../bin/ios/Appodeal.framework">
-      <fileset dir="../ios/sdk/Appodeal.framework">
-        <include name="**/*"/>
-      </fileset>
-    </copy>
-    <copy overwrite="true" todir="../bin/ios/">
-      <fileset dir="../ios/sdk/Resources/">
-        <include name="**/*"/>
-      </fileset>
-    </copy>
-    <copy file="../out/AppodealDevice.a" tofile="../bin/ios/AppodealDevice.a"/>
-    <copy file="../bin/temp/library.swf" tofile="../bin/ios/library.swf"/>
-    <copy file="../build/platformoptions-ios.xml" todir="../bin/platforms/"/>
+    
 
     <!-- Copy to Android -->
     <copy overwrite="true" todir="../bin/android/">
@@ -74,7 +61,7 @@
 
   <!-- Package -->
   <target description="Create the extension package" name="package">
-    <exec dir="../bin" executable="${air.sdk}/bin/adt" failonerror="true">
+    <exec dir="../bin" executable="${air.sdk}/bin/adt.bat" failonerror="true">
 
       <arg value="-package"/>
       <arg line="-storetype pkcs12 -keystore ../build/Sertificate.p12 -storepass 123 -tsa none"/>
@@ -92,7 +79,7 @@
 
   <target description="Create the extension package" name="package_andr">
     <copy file="../build/extension_android.xml" tofile="../bin/extension.xml" overwrite="true"/>
-    <exec dir="../bin" executable="${air.sdk}/bin/adt" failonerror="true">
+    <exec dir="../bin" executable="${air.sdk}/bin/adt.bat" failonerror="true">
 
       <arg value="-package"/>
       <arg line="-storetype pkcs12 -keystore ../build/Sertificate.p12 -storepass 123 -tsa none"/>

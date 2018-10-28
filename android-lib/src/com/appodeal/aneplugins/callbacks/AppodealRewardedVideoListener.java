@@ -17,12 +17,17 @@ public class AppodealRewardedVideoListener implements RewardedVideoCallbacks {
     }
 
     @Override
-    public void onRewardedVideoLoaded() {
+    public void onRewardedVideoLoaded(boolean finished) {
         _ctx.dispatchStatusEventAsync("REWARDED_VIDEO_LOADED", "");
     }
 
     @Override
     public void onRewardedVideoFailedToLoad() {
+        _ctx.dispatchStatusEventAsync("REWARDED_VIDEO_FAILED_TO_LOAD", "");
+    }
+
+    @Override
+    public void onRewardedVideoExpired() {
         _ctx.dispatchStatusEventAsync("REWARDED_VIDEO_FAILED_TO_LOAD", "");
     }
 
@@ -33,7 +38,7 @@ public class AppodealRewardedVideoListener implements RewardedVideoCallbacks {
     }
 
     @Override
-    public void onRewardedVideoFinished(int amount, String name) {
+    public void onRewardedVideoFinished(double amount, String name) {
         String level = "<info amount='" + amount + "' name='" + name + "' ></info>";
         _ctx.dispatchStatusEventAsync("REWARDED_VIDEO_FINISHED", level);
     }

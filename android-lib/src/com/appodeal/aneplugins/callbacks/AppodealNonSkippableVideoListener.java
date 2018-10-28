@@ -17,7 +17,10 @@ public class AppodealNonSkippableVideoListener implements NonSkippableVideoCallb
     }
 
     @Override
-    public void onNonSkippableVideoLoaded() {
+    public void onNonSkippableVideoExpired() { _ctx.dispatchStatusEventAsync("NON_SKIPPABLE_VIDEO_EXPIRED", ""); }
+
+    @Override
+    public void onNonSkippableVideoLoaded(boolean finished) {
         _ctx.dispatchStatusEventAsync("NON_SKIPPABLE_VIDEO_LOADED", "");
     }
 

@@ -14,7 +14,7 @@ public class AppodealSetCustomDoubleRule implements FREFunction {
         try {
             String name = args[0].getAsString();
             double rule = args[1].getAsDouble();
-            Appodeal.setCustomRule(name, rule);
+            //Appodeal.setcussetCustomRule(name, rule);
         } catch (Exception exception) {
             Log.w("AppodealPlugin", exception);
         }
