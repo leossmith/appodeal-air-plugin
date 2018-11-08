@@ -280,9 +280,9 @@ userSettings.setGender(Gender.FEMALE);
 
 ## Changelog
 
-3.1.0 (29/10/2018)
+3.1.0 (08/11/2018)
 
-+ Appodeal Android SDK Updated to 2.4.6 Beta
++ Appodeal Android SDK Updated to 2.4.8 Beta
 
 3.0.7 (20/04/2018)
 

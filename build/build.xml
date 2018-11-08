@@ -3,7 +3,7 @@
 
   <!-- Config -->
   <property name="tempbuild" value="../temp/ios/build"/>
-  <property name="air.sdk" value="E:/Development/flex-sdks/4161_30"/>
+  <property name="air.sdk" value="E:\Development\SDKs\4161_31"/>
 
   <!-- All -->
   <target depends="clean,prepare,package,package_andr" description="Full build of extension" name="all" />
