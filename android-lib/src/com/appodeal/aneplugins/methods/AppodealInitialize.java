@@ -23,7 +23,7 @@ public class AppodealInitialize implements FREFunction {
             String AppKey = args[0].getAsString();
             int AdType = args[1].getAsInt();
             Appodeal.setFramework("air", "3.0.0");
-            Appodeal.initialize(activity, AppKey, AppodealANEUtils.getAdType(AdType));
+            Appodeal.initialize(activity, AppKey, AppodealANEUtils.getAdType(AdType), true);
 
             new AdvertisingIDTask(activity);
         } catch (Exception e) {

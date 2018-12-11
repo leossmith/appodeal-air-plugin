@@ -1,9 +1,9 @@
 <platform xmlns="http://ns.adobe.com/air/extension/16.0">
 	<packagedDependencies>
-		<packagedDependency>adcolony-sdk-3.2.1.jar</packagedDependency>
-		<packagedDependency>appodeal-2.1.11.jar</packagedDependency>
-		<packagedDependency>inmobi-6.2.3.jar</packagedDependency>
-		<packagedDependency>startapp-3.6.7.jar</packagedDependency>
+		<packagedDependency>adcolony-3.3.4.jar</packagedDependency>
+		<packagedDependency>appodeal-2.4.9.jar</packagedDependency>
+		<packagedDependency>inmobi-7.1.1.jar</packagedDependency>
+		<packagedDependency>startapp-3.9.3.jar</packagedDependency>
 		<packagedDependency>picasso-2.5.2.jar</packagedDependency>
 		<packagedDependency>ogury-2.1.15.jar</packagedDependency>
 		<packagedDependency>yandex-metrica-2.73.jar</packagedDependency>
