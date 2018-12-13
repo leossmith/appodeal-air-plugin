@@ -31,8 +31,8 @@
 + Download and unzip newest Appodeal Android SDK here.
 + Place Appodeal jar into libs folder inside android-lib folder.
 + Update java code in android-lib module if needed.
-+ Build android artifact if something was changed in android-lib with Build→Build Artifacts...->AppodealANE:jar
-+ Place new appodeal-x.jar and all other appodeal depending libs into android/dependency folder.
++ Build android artifact if something was changed in android-lib with Build→Build Artifacts...->AppodealANE:jar (This should be about 55kb)
++ Place new appodeal-x.jar (ex. appodeal-2.4.9.jar) and all other appodeal depending libs (ex. facebook, ironsourceh, etc.) into android/dependency folder.
 + Update /build/platformoptions-and.xml if android libraries were updated.
 + Android ready for ane packaging.
 
@@ -148,7 +148,7 @@ Add following permissions inside the manifest tag:
 <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!--optional-->
 ```
 
-Add contents of [this](AndroidManifestAdditions.xml) sample to manifestAdditions inside application android tag:
+Add contents of [this](AndroidManifestAdditions.xml) sample to manifestAdditions inside application android tag (Make sure to update this on every update):
 
 ### API References
 
@@ -181,6 +181,8 @@ To initialize SDK, call the code like this:
 var appKey:String = "e7e04e54ae0a8d28cff2f7e7e7d094e78b2a09743be2cc4a";
 appodeal.initialize(appKey, adType);
 ```
+
+On this reporsitory consent for usage is by default set to true. 
 
 #### Display Ad
 

@@ -30,10 +30,15 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/actionscript-def/actionscript-def.iml" beforeDir="false" afterPath="$PROJECT_DIR$/actionscript-def/actionscript-def.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/actionscript-lib/actionscript-lib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/actionscript-lib/actionscript-lib.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-lib/libs/appodeal-2.1.11.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android-lib/libs/appodeal-2.1.11.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealInitialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealInitialize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-lib/libs/appodeal-2.1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/dependency/AppodealANE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/dependency/adcolony-sdk-3.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/dependency/appodeal-2.1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/dependency/startapp-3.6.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/dependency/yandex-metrica-2.73.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/as3-androidsupport-lib/as3-androidsupport-lib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/as3-androidsupport-lib/as3-androidsupport-lib.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/as3-playservices-lib/as3-playservices-lib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/as3-playservices-lib/as3-playservices-lib.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/platformoptions-and.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/platformoptions-and.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/AppodealANE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/AppodealANE.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/AppodealDevice.a" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/PlayservicesANE.jar" beforeDir="false" />
@@ -42,6 +47,7 @@
       <change beforePath="$PROJECT_DIR$/out/actionscript-lib.swc" beforeDir="false" afterPath="$PROJECT_DIR$/out/actionscript-lib.swc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/androidsupport-lib.swc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/playservices-lib.swc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-as/sample-as.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sample-as/sample-as.iml" afterDir="false" />
     </list>
     <ignored path="AppodealSource.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,19 +68,36 @@
     <session id="-1337308204">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="xml" value="1" />
+          <entry key="as" value="1" />
+          <entry key="class" value="2" />
+          <entry key="java" value="5" />
+          <entry key="properties" value="2" />
+          <entry key="txt" value="1" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="XML" value="1" />
+          <entry key="ActionScript" value="1" />
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="5" />
+          <entry key="ProGuard File" value="1" />
+          <entry key="Properties" value="2" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -117,35 +140,7 @@
     <favorites_list name="AppodealSource" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/AppodealContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealInitialize.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="25" column="90" selection-start-line="25" selection-start-column="90" selection-end-line="25" selection-end-column="90" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build/platformoptions-and.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="72" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -228,20 +223,19 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Bundled (Maven 3)" />
-      </MavenGeneralSettings>
-    </option>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="PhpServers">
     <servers />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1201" />
-    <option name="width" value="2246" />
-    <option name="height" value="1407" />
+    <option name="x" value="-7" />
+    <option name="width" value="1826" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -251,6 +245,52 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AppodealSource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="actionscript-def" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AppodealSource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="actionscript-lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AppodealSource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="actionscript-lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AppodealSource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="actionscript-lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="aneplugin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AppodealSource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AppodealSource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-lib" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AppodealSource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AppodealSource" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-lib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="aneplugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -284,27 +324,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="AppodealSource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="actionscript-def" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppodealSource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="android-lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppodealSource" type="b2602c69:ProjectViewProjectNode" />
-              <item name="android-playservices-lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -316,7 +337,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544538540649" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544703790621" />
     <property name="flex.preferred.android.device.id" value="TA39100EOF" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -727,17 +748,25 @@
       <workItem from="1541688322981" duration="2173000" />
       <workItem from="1544536364454" duration="1557000" />
       <workItem from="1544538176799" duration="235000" />
+      <workItem from="1544538796984" duration="726000" />
+      <workItem from="1544540263060" duration="1009000" />
+      <workItem from="1544543330074" duration="555000" />
+      <workItem from="1544543931657" duration="1783000" />
+      <workItem from="1544545991890" duration="958000" />
+      <workItem from="1544548591011" duration="1306000" />
+      <workItem from="1544554576342" duration="634000" />
+      <workItem from="1544699927803" duration="1201000" />
+      <workItem from="1544702191817" duration="1600000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="247661000" />
+    <option name="totallyTimeSpent" value="257433000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1201" y="0" width="2246" height="1407" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="1826" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27081427" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29105324" />
       <window_info id="Structure" order="1" weight="0.2494043" />
       <window_info id="Build Variants" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -755,10 +784,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Android Monitor" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50427353" side_tool="true" weight="0.25731894" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5220838" side_tool="true" visible="true" weight="0.1916758" />
       <window_info anchor="bottom" id="Application Servers" order="9" />
       <window_info anchor="bottom" id="Profiler" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.47863248" weight="0.19245876" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.47791618" visible="true" weight="0.1916758" />
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="bottom" id="Android" order="13" weight="0.3294753" />
       <window_info anchor="bottom" id="Version Control" order="14" />
@@ -766,14 +795,14 @@
       <window_info anchor="bottom" id="Logcat" order="16" />
       <window_info anchor="bottom" id="Database Changes" order="17" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" visible="true" weight="0.11070448" />
+      <window_info active="true" anchor="right" id="Ant Build" order="1" visible="true" weight="0.11891279" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Android Model" order="5" side_tool="true" />
       <window_info anchor="right" id="Properties" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3298887" />
       <window_info anchor="right" id="Database" order="9" />
       <window_info anchor="right" id="Palette&#9;" order="10" />
       <window_info anchor="right" id="Flutter Inspector" order="11" />
@@ -843,33 +872,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/AppodealExtension.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android-lib/android-lib.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/actionscript-lib/src/com/appodeal/aneplugin/UserSettings.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/actionscript-def/src/com/appodeal/aneplugin/constants/Gender.as">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/extension_android.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/actionscript-lib/src/com/appodeal/aneplugin/constants/Gender.as">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1077,20 +1079,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/actionscript-lib/src/com/appodeal/aneplugin/Appodeal.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="30" column="41" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/android-lib/build.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1118,31 +1106,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/android-lib/libs/appodeal-2.4.9.jar!/com/appodeal/ads/Appodeal.class">
+    <entry file="jar://$PROJECT_DIR$/android-lib/libs/appodeal-2.4.9.jar!/com/appodeal/ads/Appodeal.class" />
+    <entry file="file://$PROJECT_DIR$/build/platformoptions-and.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="76" column="29" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="29" />
+        <state relative-caret-position="272">
+          <caret line="16" column="72" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="79" column="59" selection-start-line="79" selection-start-column="59" selection-end-line="79" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/AppodealExtension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-lib/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-lib/proguard-project.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-lib/project.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/android-lib/libs/appodeal-2.1.11.jar!/com/appodeal/ads/Appodeal.class" />
+    <entry file="file://$PROJECT_DIR$/actionscript-lib/src/com/appodeal/aneplugin/Appodeal.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3536">
+          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealInitialize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/AppodealContext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android-lib/src/com/appodeal/aneplugins/methods/AppodealInitialize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="90" selection-start-line="25" selection-start-column="90" selection-end-line="25" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/platformoptions-and.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="51" selection-start-column="51" selection-end-column="51" />
+          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -1212,7 +1229,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>actionscript-lib|actionscript-lib</last-edited>
+          <last-edited>Android|android-lib</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

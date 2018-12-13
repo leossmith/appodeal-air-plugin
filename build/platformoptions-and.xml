@@ -2,11 +2,13 @@
 	<packagedDependencies>
 		<packagedDependency>adcolony-3.3.4.jar</packagedDependency>
 		<packagedDependency>appodeal-2.4.9.jar</packagedDependency>
+		<packagedDependency>facebook-5.1.0.jar</packagedDependency>
 		<packagedDependency>inmobi-7.1.1.jar</packagedDependency>
+		<packagedDependency>ironsource-6.7.9.1.jar</packagedDependency>
 		<packagedDependency>startapp-3.9.3.jar</packagedDependency>
 		<packagedDependency>picasso-2.5.2.jar</packagedDependency>
 		<packagedDependency>ogury-2.1.15.jar</packagedDependency>
-		<packagedDependency>yandex-metrica-2.73.jar</packagedDependency>
+		
 
 		<packagedDependency>mobvista_alphab.jar</packagedDependency>
 		<packagedDependency>mobvista_appwall.jar</packagedDependency>
@@ -22,6 +24,14 @@
 		<packagedDependency>mobvista_reward.jar</packagedDependency>
 		<packagedDependency>mobvista_videocommon.jar</packagedDependency>
 		<packagedDependency>mobvista_videofeeds.jar</packagedDependency>
+		
+		<packagedDependency>mopub-sdk-5.1.0.jar</packagedDependency>
+		<packagedDependency>mopub-sdk-banner-5.1.0.jar</packagedDependency>
+		<packagedDependency>mopub-sdk-base-5.1.0.jar</packagedDependency>
+		<packagedDependency>mopub-sdk-interstitial-5.1.0.jar</packagedDependency>
+		<packagedDependency>mopub-sdk-native-static-5.1.0.jar</packagedDependency>
+		<packagedDependency>mopub-sdk-rewardedvideo-5.1.0.jar</packagedDependency>
+		<packagedDependency>mopub-volley-2.0.0.jar</packagedDependency>
 	</packagedDependencies>
 
 	<packagedResources>
